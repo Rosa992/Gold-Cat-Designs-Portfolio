@@ -1,0 +1,66 @@
+/* Global Styles */
+body {
+  margin: auto;
+    background-color: #9D9D9D;
+}
+
+h1, h2, .menu, .contact{
+  font-family: 'Montserrat', sans-serif;
+text-align: center;
+  line-height: 40px;
+}
+
+
+/******* Navigation Section ***********/
+
+.menu, .contact {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  clear: both;
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 5px;
+margin: 0 10px;
+
+}
+
+.menu .btn:hover {
+  background: rgba(178, 200, 223, 80%);
+  border-radius: 5%;
+}
+
+.logo {
+  float: left;
+  height: 45px;
+}
+
+
+/*********** Profile Section **************/
+
+.profile {
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  width: 35%;
+  margin-top: 40px;
+}
+
+
+/******** Contact Section ***********/
+
+.contact a {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin: 0 5px;
+  clear: both;
+  text-decoration: none;
+  padding: 10px 10px;
+}
+
+
+/* Media Queries */
