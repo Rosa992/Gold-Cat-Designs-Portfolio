@@ -42,6 +42,9 @@ margin: 0 10px;
   color: black;
 }
 
+.btn:visited {
+  color: purple;
+}
 
 
 /*********** Profile Section **************/
