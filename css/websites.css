@@ -1,0 +1,31 @@
+/* Global Styles */
+
+body {
+  background-color: #A5C9CA;
+}
+
+
+/* Navigation */
+.logo {
+  height: 40px;
+}
+
+
+
+/* Menu Styles */
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 5px;
+  padding: 10px;
+}
+
+.item1 {
+  grid-column-start: 3;
+  grid-column-end: 6;
+}
+
+.item2 {
+  grid-column-start: 4;
+    grid-column-end: 7;
+}
