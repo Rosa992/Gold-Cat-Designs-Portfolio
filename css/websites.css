@@ -2,30 +2,42 @@
 
 body {
   background-color: #A5C9CA;
+  margin: auto;
 }
 
 
 /* Navigation */
 .logo {
   height: 40px;
+
 }
 
 
 
 /* Menu Styles */
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  gap: 5px;
+.container {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 90px;
+  margin-top: 80px;
+
+}
+.container a {
+  display: inline-block;
   padding: 10px;
+  padding-left: 20px;
+  margin: 0px 15px;
 }
 
-.item1 {
-  grid-column-start: 3;
-  grid-column-end: 6;
+.container h2 {
+  padding-top: 4px;
+ padding-left: 0px;
+ padding-right: 0px;
+
+
 }
 
-.item2 {
-  grid-column-start: 4;
-    grid-column-end: 7;
+a {
+  text-decoration: none;
 }
