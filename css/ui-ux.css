@@ -1,0 +1,46 @@
+/* Global Styles */
+body {
+  background-color: #8CA1A5;
+  margin: auto;
+}
+
+
+/* Navigation Section */
+
+.logo {
+  height: 30px;
+}
+
+/* Menu Styles */
+
+
+
+.container {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+text-align: center;
+  padding-top: 90px;
+
+
+}
+.container a {
+  display: inline-block;
+  padding: 10px;
+  padding-left: 10px;
+  margin: 0px 15px;
+  border-style: solid;
+  border-color: black;
+}
+
+.container h2 {
+  padding-top: 4px;
+ padding-left: 0px;
+ padding-right: 0px;
+
+}
+
+a {
+  text-decoration: none;
+font-size: 10px;
+}
