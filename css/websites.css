@@ -3,6 +3,7 @@
 body {
   background-color: #A5C9CA;
   margin: auto;
+
 }
 
 
@@ -34,11 +35,11 @@ body {
   padding-top: 4px;
  padding-left: 0px;
  padding-right: 0px;
-
+color: black;
 
 }
 
 a {
   text-decoration: none;
-  color: black;
+
 }
