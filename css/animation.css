@@ -90,6 +90,14 @@ a:link {
   background-color: #CFD8DC;
 }
 
+/* Header Section */
+
+header {
+  text-align: center;
+  padding-top: 10px;
+  font-family: 'Arima', cursive;
+}
+
 
 
 
