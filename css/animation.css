@@ -1,3 +1,4 @@
+/* Global Styles */
 body {
    background-color: #AFB9C8;
 }
@@ -11,7 +12,11 @@ a:link {
   text-decoration: none;
 }
 
-
+header {
+  text-align: center;
+  padding-top: 10px;
+  font-family: 'Arima', cursive;
+}
 /* Navigation Styles */
 .logo {
   height: 45px;
@@ -90,13 +95,6 @@ a:link {
   background-color: #CFD8DC;
 }
 
-/* Header Section */
-
-header {
-  text-align: center;
-  padding-top: 10px;
-  font-family: 'Arima', cursive;
-}
 
 
 
