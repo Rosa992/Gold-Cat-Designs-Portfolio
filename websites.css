@@ -1,0 +1,45 @@
+/* Global Styles */
+
+body {
+  background-color: #A5C9CA;
+  margin: auto;
+
+}
+
+
+/* Navigation */
+.logo {
+  height: 40px;
+
+}
+
+
+
+/* Menu Styles */
+.container {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 90px;
+  margin-top: 80px;
+
+}
+.container a {
+  display: inline-block;
+  padding: 10px;
+  padding-left: 20px;
+  margin: 0px 15px;
+}
+
+.container h2 {
+  padding-top: 4px;
+ padding-left: 0px;
+ padding-right: 0px;
+color: black;
+
+}
+
+a {
+  text-decoration: none;
+
+}
