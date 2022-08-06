@@ -16,6 +16,7 @@ body {
   display: grid;
   grid-template-columns: auto auto auto;
   margin: 40px 50px;
+  padding: 20px 0px;
 justify-content: center;
 align-content: center;
   column-gap: 5px;
