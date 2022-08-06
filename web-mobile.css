@@ -4,10 +4,22 @@ body {
     background-color: #9D9D9D;
 }
 
-
-
 /* Navigation Section */
 
 .logo {
   height: 40px;
+}
+
+/* Grid Styles */
+
+.container {
+  display:grid;
+  grid-template-columns: auto auto auto;
+  padding: 30px;
+}
+
+.grid-item {
+  text-align: center;
+  border: 1px solid;
+  padding: 25px 10px;
 }
