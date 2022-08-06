@@ -13,15 +13,18 @@ body {
 /* Grid Styles */
 
 .container {
-  display: inline-grid;
+  display: grid;
   grid-template-columns: auto auto auto;
   margin: 40px 50px;
+justify-content: center;
+align-content: center;
   column-gap: 5px;
   row-gap: 5px;
 }
 
 .grid-item {
   text-align: center;
+
   border: 1px solid;
   padding: 80px 70px;
 }
