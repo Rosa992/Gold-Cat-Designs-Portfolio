@@ -4,14 +4,11 @@ body {
   margin: auto;
 }
 
-a {
-  text-decoration: none;
-font-size: 15px;
-color: black;
-}
-
 header {
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  padding-top: 20px;
 }
 /* Navigation Section */
 
