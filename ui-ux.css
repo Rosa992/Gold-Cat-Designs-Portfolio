@@ -22,23 +22,57 @@ header {
 /* Menu Styles */
 
 .container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  margin: 40px 50px;
-  padding: 10px 0px;
-justify-content: center;
-align-content: center;
-  column-gap: 5px;
-  row-gap: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 85%; /* arbitrary valye */
+  margin: 60px auto;
+
 }
 
-.grid-item {
-  text-align: center;
-  border: 1px solid;
-  padding: 5px 5px;
+.gal-item {
+  width: 30%; /* for 3 columns */
+  margin: 5px;
+  overflow: hidden;
+  border-radius: 15px;
 }
 
-.grid-item img {
+.grid-item-thumb img {
+  width: 250px;
+  height: 250px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.grid-item-thumb:hover img {
   width: 100%;
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 0.5s ease;
+}
+.grid-item-thumb:focus + .grid-item-big {
+  display: block;
+}
 
+.grid-item-big {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(5, 10, 15, 0.8);
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  z-index: 999;
+  transition: all 0.3s ease;
+}
+
+.grid-item-big img {
+  max-width: 70vw;
+  position: absolute;
+  box-shadow: 0px 0px 800px 40px rgba(0, 0, 0, 0.9);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
