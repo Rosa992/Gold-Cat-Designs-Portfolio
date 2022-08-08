@@ -43,11 +43,11 @@ margin: 0 10px;
   height: 45px;
 }
 
-.btn {
+a:link {
   color: black;
 }
 
-.btn:visited {
+a:visited {
   color: purple;
 }
 
@@ -107,7 +107,7 @@ font-size: 13px;
     font-size: 15px
   }
 footer {
-  
+
 }
 
 }
