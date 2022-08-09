@@ -1,9 +1,4 @@
-/* Navigation */
-.logo {
-  height: 40px;
-
-}
-
+/* Global Styles */
 
 /* colors */
 html {
@@ -17,13 +12,23 @@ body {
 	font-family: "Raleway";
 	height: 100%;
 }
-body h1 {
+body header {
 	text-align: center;
 	color: #428BFF;
 	font-weight: 300;
 	padding: 40px 0 20px 0;
 	margin: 0;
 }
+
+/* Navigation Styles */
+
+.logo {
+  width: 40px;
+}
+
+
+/* Gallery Styles */
+
 
 .gallery {
 	left: 50%;
