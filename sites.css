@@ -7,16 +7,16 @@ html {
 }
 
 body {
-	background: #efefef;
-	color: #333;
-	font-family: "Raleway";
+	background: #35858B;
+
+font-family: 'Montserrat', sans-serif;
 	height: 100%;
 }
-body header {
+body h1 {
 	text-align: center;
-	color: #428BFF;
+	color: #F5EEDC;
 	font-weight: 300;
-	padding: 40px 0 20px 0;
+	padding: 30px 0 20px 0;
 	margin: 0;
 }
 
@@ -102,10 +102,6 @@ body header {
 .menu__item:hover {
   background-color: #CFD8DC;
 }
-
-
-
-
 
 
 /* Gallery Styles */
