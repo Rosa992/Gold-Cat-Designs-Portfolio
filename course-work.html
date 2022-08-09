@@ -2,13 +2,87 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Course Work</title>
+    <link rel="stylesheet" href="sites.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   </head>
   <body>
 <main>
 
+  <!--- Navigation Section --->
 
-  
+  <nav>
+    <a class="active" href="index.html"><img class="logo" src="logo-here.png" alt="logo"></a>
+  </nav>
+
+<!-- Header Section -->
+<header>
+  <h1>Side Projects</h1>
+</header>
+<!-- Gallery Section -->
+
+
+   <section class="gallery">
+       <div class="carousel">
+
+           <input type="radio" id="image1" name="gallery-control" checked>
+           <input type="radio" id="image2" name="gallery-control">
+           <input type="radio" id="image3" name="gallery-control">
+           <input type="radio" id="image4" name="gallery-control">
+
+
+           <input type="checkbox" id="fullscreen" name="gallery-fullscreen-control"/>
+
+           <div class="wrap">
+
+               <figure>
+                   <label for="fullscreen">
+                       <img src="drum_kit.png" alt="image3"/>
+                   </label>
+               </figure>
+
+               <figure>
+                   <label for="fullscreen">
+                       <img src="thumbnail-dice-game.png" alt="image2"/>
+                   </label>
+               </figure>
+
+               <figure>
+                   <label for="fullscreen">
+                       <img src="portfolio_website.png" alt="image3" />
+                   </label>
+               </figure>
+
+               <figure>
+                   <label for="fullscreen">
+                       <img src="css_site.png" alt="image4"/>
+                   </label>
+               </figure>
+           </div>
+
+           <div class="thumbnails">
+
+               <div class="slider"><div class="indicator"></div></div>
+
+               <label for="image1" class="thumb" style="background-image: url('drum_kit.png')"></label>
+
+               <label for="image2" class="thumb" style="background-image: url('thumbnail-dice-game.png')"></label>
+
+               <label for="image3" class="thumb" style="background-image: url('portfolio_website.png')"></label>
+
+               <label for="image4" class="thumb" style="background-image: url('css_site.png')"></label>
+           </div>
+       </div>
+   </section>
+
+
+
+
+
+
+
 </main>
+<script type="text/javascript" src="sites.js"></script>
   </body>
 </html>
