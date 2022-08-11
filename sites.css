@@ -163,7 +163,7 @@ position: relative;
 line-height: 2rem;
 text-decoration: none;
 font-size: 15px;
-	cursor: pointer;
+cursor: pointer;
 }
 
 
@@ -296,7 +296,7 @@ font-size: 15px;
 .gallery input#fullscreen:checked ~ .wrap figure label {
 	cursor: zoom-out;
 }
-.gallery input#fullscreen:checked ~ .wrap figure label img .page-links {
+.gallery input#fullscreen:checked ~ .wrap figure label img  {
 	-webkit-animation: shadow 0.2s;
 	animation: shadow 0.2s;
 	-webkit-animation-timing-function: ease-in-out;
