@@ -427,9 +427,11 @@ justify-content: center;
 
 @media screen and (max-width: 749px) {
 	.gallery {
-		max-width: 90%;
+		max-width: 100%;
 		max-height: 20%;
-		margin-right: 30px;
+		margin-right: 40px;
+		padding-left: 30px;
+		padding-top: auto;
 	}
 
 .gallery .wrap figure label img {
