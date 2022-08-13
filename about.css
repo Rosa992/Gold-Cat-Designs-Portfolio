@@ -5,10 +5,14 @@ body {
 
 h1, h2 {
   text-align: center;
+  margin: auto;
+  padding-top: 40px;
 }
 
 
 /* Navigation Styles */
+
+
 .logo {
   float: left;
   width: 40px;
@@ -28,8 +32,8 @@ h1, h2 {
 .info p {
   overflow: auto;
   display: block;
-  margin: 40px 70px;
-  padding-top: 40px;
+  margin: 40px 100px;
+  padding-top: 60px;
 }
 
 
