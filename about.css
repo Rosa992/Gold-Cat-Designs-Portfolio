@@ -1,14 +1,41 @@
 /* Global Styles */
+body {
+  margin: auto;
+}
 
+h1, h2 {
+  text-align: center;
+}
 
 
 /* Navigation Styles */
-
+.logo {
+  float: left;
+  width: 40px;
+}
 
 
 /* Profile Styles */
+.profile-pic {
+  float: left;
+  display: block;
+  clear: both;
+  border-radius: 50%;
+  width: 20%;
+  margin: 10px 30px;
+}
 
+.info p {
+  overflow: auto;
+  display: block;
+  margin: 40px 70px;
+  padding-top: 40px;
+}
 
 
 
 /* Contact Styles */
+.contact {
+  clear: both;
+  padding-top: 15px;
+}
