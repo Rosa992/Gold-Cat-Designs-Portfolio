@@ -163,7 +163,7 @@ header {
 
 /* Media Queries */
 
-@media screen and (min-width: 750px){
+@media screen and (min-width: 700px){
 
   .menu__box {
     width: 130px;
