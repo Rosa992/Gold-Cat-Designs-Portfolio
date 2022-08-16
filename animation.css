@@ -185,6 +185,9 @@ header {
   width: 100%;
 }
 
+.-fx-gal-item {
+  width: 30%;
+}
 
 
 }
