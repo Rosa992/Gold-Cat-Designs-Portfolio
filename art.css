@@ -139,17 +139,19 @@ a:link {
 /* Media Queries */
 
 @media screen and (min-width: 750px){
-.menu__box {
-  width: 130px;
-}
 
-.menu__item {
-  font-size: 17px;
-}
+  .menu__box {
+    width: 130px;
+  }
+
+  .menu__item {
+    font-size: 17px;
+  }
+
 
 }
 @media screen and (max-width: 749px) {
 
-
+  
 
 }
