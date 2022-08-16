@@ -67,5 +67,27 @@ footer h3 {
 a:link {
   text-decoration: none;
   padding: 0 20px;
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 750px){
+  footer {
+    padding-top: 20px;
+    position: relative;
+    left: 0%;
+    text-align: center;
+  }
+
+
+}
+@media screen and (max-width: 749px) {
+  footer {
+    padding-top: 20px;
+    position: relative;
+    left: 0%;
+    text-align: center;
+  }
+
 
 }
