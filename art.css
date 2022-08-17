@@ -138,7 +138,7 @@ a:link {
 
 /* Media Queries */
 
-@media screen and (min-width: 750px){
+@media screen and (max-width: 700px){
 
   .menu__box {
     width: 130px;
