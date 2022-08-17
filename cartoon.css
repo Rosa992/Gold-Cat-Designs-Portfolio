@@ -190,20 +190,12 @@ header {
 }
 
 
+.menu__box {
+  width: 15%;
+}
 
 .menu__item {
-  display: flex;
-overflow: hidden;
-clear: both;
-justify-content: space-evenly;
-
+  font-size: 17px;
 }
-
-.menu__box {
-  height: 1px;
-  width: 85%;
-}
-
-
 
 }
