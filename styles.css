@@ -118,14 +118,10 @@ footer a {
     top: 0%;
   }
 
-  .content-wrap {
-    max-width: 800px;
-    width: 100%;
-    margin: auto;
-
+  .logo {
+    position: absolute;
+    top: 0%;
   }
 
-body {
-  margin: auto;
-}
+
 }
