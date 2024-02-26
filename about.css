@@ -8,6 +8,7 @@ h1, h2 {
   text-align: center;
   margin: auto;
   padding-top: 40px;
+  clear: both;
 }
 
 .skills h2 {
