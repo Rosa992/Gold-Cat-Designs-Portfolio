@@ -26,11 +26,7 @@ text-align: center;
   margin: 0 auto;
 }
 
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
+
 /******* Navigation Section ***********/
 
 .flex-container {

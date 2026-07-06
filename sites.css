@@ -115,7 +115,7 @@ body h1 {
 	transform: translateX(-50%);
 	position: relative;
 	background: white;
-	width: 70%;
+	width: min(90%, 1100px);
 	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 	border-radius: 5px;
 	margin-bottom: 20px;
@@ -202,17 +202,12 @@ right: 5%;
 	position: relative;
 	display: block;
 }
-.gallery .wrap figure img{
-	cursor: inherit;
-	height: auto;
-	max-width: 100%;
-	max-height: 100%;
-	border-radius: 3px;
-	margin: 0 auto;
-	position: relative;
-	top: 50%;
-	-webkit-transform: translateY(-50%);
-	transform: translateY(-50%);
+.gallery .wrap figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 3px;
+    margin: 0 auto;
+    display: block;
 }
 
 /* Thumbnails */
@@ -423,27 +418,49 @@ right: 5%;
 
 
 @media screen and (max-width: 749px) {
-	.gallery {
-		width: 70%;
-		padding-top: auto;
-	}
 
-.gallery .wrap figure label img {
-	position: relative;
-	align-items: center;
-	justify-content: center;
-	left: 15%;
-	width: 100%;
+	header {
+		text-align: center;
+		padding-top: 20px;
+	  }
+	  
+	  .logo {
+		height: 60px;
+	  }
+
+    .gallery {
+        width: 90%;
+    }
+
+    .gallery .wrap figure label img {
+        position: relative;
+        left: 0;
+        width: 100%;
+    }
+
+    .gallery .wrap figure label {
+        width: min(95%, 1100px);
+    margin: 20px auto;
+	gap: 10px;
+    padding: 10px;
+    }
+
+    .gallery .thumbnails {
+        flex-direction: row;
+        overflow-x: auto;
+        overflow-y: hidden;
+        max-height: 80px;
+    }
+
+    .gallery .thumbnails .thumb {
+        min-width: 60px;
+        height: 60px;
+    }
+
+
+	  .grid-item-thumb img {
+		will-change: transform;
+	  }
 }
 
-.gallery .wrap figure label {
-	cursor: zoom-in;
-	height: auto;
-	width: 70%;
-	height: 90%;
-	position: relative;
-	display: block;
-}
 
-
-}
