@@ -1,14 +1,14 @@
 /* Global Styles */
 body {
-  margin: auto;
+  margin: 0;
   background-color: #9D9D9D;
+  font-family: sans-serif;
 }
 
 h1, h2 {
   text-align: center;
-  margin: auto;
+  margin: 0;
   padding-top: 15px;
-  clear: both;
 }
 
 .skills h2 {
@@ -19,29 +19,39 @@ h1, h2 {
 
 /* Navigation Styles */
 
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
 .logo {
-  float: left;
   width: 80px;
+  height: auto;
 }
 
 
 /* Profile Styles */
+
+.profile-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
 .profile-pic {
-  float: left;
-  display: block;
-  clear: both;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
-  width: 15%;
-  margin: 10px 30px;
+  object-fit: cover;
 }
 
 .info p {
-  overflow: auto;
-  display: block;
-  margin: 40px 100px;
-  padding-top: 60px;
-  line-height: 1.5em;
+  margin: 20px auto;
+  max-width: 800px;
+  padding: 0 15px;
+  line-height: 1.6;
 }
 
 /* Skills Section */
@@ -53,11 +63,9 @@ h1, h2 {
 
 /* Footer Styles */
 footer {
-  margin: 15px 0;
-  position: fixed;
-  bottom: 0%;
-  left: 40%;
-  padding-top: 20px;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
 }
 
 footer h3 {
@@ -72,17 +80,14 @@ a:link {
 
 /* Media Queries */
 
-@media screen and (min-width: 750px){
-  footer {
-    padding-top: 20px;
-    position: relative;
-    left: 0%;
-    text-align: center;
-  }
 
-
-}
 @media screen and (max-width: 749px) {
+  
+   nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
   footer {
     padding-top: 20px;
     position: relative;
@@ -90,5 +95,16 @@ a:link {
     text-align: center;
   }
 
+  .profile-container {
+    flex-direction: column;
+    text-align: center;
+  }
 
+  .info p {
+    padding: 0 10px;
+  }
+
+  .logo {
+    width: 60px;
+  }
 }
