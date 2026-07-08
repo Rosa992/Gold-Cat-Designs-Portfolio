@@ -1,16 +1,33 @@
 /* Global Styles */
+
+html {
+    height: 100%;
+}
+
 body {
-  margin: 0;
-  background-color: #9D9D9D;
-  font-family: sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #9D9D9D;
+    font-family: sans-serif;
 }
 
-h1, h2 {
-  text-align: center;
-  margin: 0;
-  padding-top: 15px;
+
+main {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  flex: 1;
 }
 
+h1{
+    font-size:clamp(2rem,5vw,3.5rem);
+}
+
+h2{
+    font-size:clamp(1.5rem,4vw,2.5rem);
+}
 .skills h2 {
   text-align: left;
   clear:both;
@@ -33,25 +50,29 @@ nav {
 
 /* Profile Styles */
 
-.profile-container {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  padding: 20px;
+.profile-container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+    padding:30px;
 }
 
-.profile-pic {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  object-fit: cover;
+.profile-pic{
+    width:100%;
+    max-width:180px;
+    aspect-ratio:1;
+    border-radius:50%;
+    object-fit:cover;
 }
 
-.info p {
-  margin: 20px auto;
-  max-width: 800px;
-  padding: 0 15px;
-  line-height: 1.6;
+.info p{
+    max-width:700px;
+    margin:auto;
+    padding:15px;
+    line-height:1.7;
+    font-size:1.1rem;
 }
 
 /* Skills Section */
@@ -63,9 +84,9 @@ nav {
 
 /* Footer Styles */
 footer {
-  text-align: center;
-  padding: 20px;
-  margin-top: 40px;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
 }
 
 footer h3 {
@@ -80,31 +101,59 @@ a:link {
 
 /* Media Queries */
 
+@media (max-width:1024px){
 
-@media screen and (max-width: 749px) {
-  
-   nav {
-    flex-direction: column;
-    gap: 10px;
-  }
-  
-  footer {
-    padding-top: 20px;
-    position: relative;
-    left: 0%;
-    text-align: center;
-  }
+.profile-container{
+    gap:20px;
+}
 
-  .profile-container {
-    flex-direction: column;
-    text-align: center;
-  }
+.info p{
+    max-width:90%;
+}
 
-  .info p {
-    padding: 0 10px;
-  }
+}
 
-  .logo {
-    width: 60px;
-  }
+
+@media (max-width:749px){
+
+nav{
+    flex-direction:column;
+    align-items:center;
+    gap:15px;
+}
+
+nav a{
+    display:block;
+    width:100%;
+    text-align:center;
+    padding:10px 0;
+}
+
+.profile-container{
+    flex-direction:column;
+    text-align:center;
+    padding:20px;
+}
+
+.profile-pic{
+    max-width:140px;
+}
+
+.info p{
+    max-width:100%;
+    padding:10px;
+}
+
+.skills{
+    margin:15px;
+}
+
+.logo{
+    width:60px;
+}
+
+footer{
+    padding:20px;
+}
+
 }
